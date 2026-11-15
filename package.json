@@ -1,0 +1,19 @@
+{
+  "name": "antigravity-vitals",
+  "version": "0.2.0",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "description": "Native Antigravity 2.0 Sidecar UI Plugin for real-time per-model tok/s speed, TTFT latency, context runway, cache efficiency, and local 5h/today token telemetry.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foclgithub/antigravity-vitals.git"
+  },
+  "scripts": {
+    "test": "node --test test/vitals-core.test.mjs",
+    "sync": "node sync-plugin.mjs",
+    "status": "node cli.mjs"
+  }
+}

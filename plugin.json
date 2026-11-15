@@ -1,0 +1,12 @@
+{
+  "name": "antigravity-vitals",
+  "displayName": "Antigravity Vitals",
+  "version": "0.2.0",
+  "description": "分模型实时监控生成速度 (tok/s)、首包 TTFT、上下文跑道、缓存效率与本地 5 小时 Token 消耗。",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "查看当前对话各模型 (Carbon / Hydrogen) 的生成速度与思考占比",
+    "统计今天与过去 5 小时的分模型 Token 消耗",
+    "检查当前对话距离上下文自动压缩还有多少余量"
+  ]
+}
